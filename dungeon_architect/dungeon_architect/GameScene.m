@@ -57,28 +57,6 @@ int tilegid = 0;
 }
 
 
-- (id)initWithColor:(ccColor4B)color {
-    
-    
-	if( (self=[super initWithColor:(UIColor)color] )) {
-        
-        self.isTouchEnabled = YES;
-        
-        [self runAction:[CCTintTo actionWithDuration:4.0 red:255 green:255 blue:255]];
-        
-        
-        
-        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:TILEMAP];
-        
-        [self addChild:_tileMap z:-1];
-        
-    }
-    return self;
-
-}
-
-
-
 -(void)setViewpointCenter:(CGPoint) position {
     
     CGSize winSize = [[CCDirector sharedDirector] winSize];
