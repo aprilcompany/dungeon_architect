@@ -16,9 +16,6 @@
 // HelloWorld implementation
 @implementation GameScene
 @synthesize tileMap = _tileMap;
-@synthesize background = _background;
-@synthesize player = _player;
-
 
 //http://stackoverflow.com/questions/538996/constants-in-objective-c
 // Constants
@@ -42,6 +39,46 @@ int tilegid = 0;
 	return scene;
 }
 
+
+// on "init" you need to initialize your instance
+-(id) init
+{
+	if( (self=[super init] )) {
+        
+        self.isTouchEnabled = YES;
+        
+        
+        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:TILEMAP];
+        
+        [self addChild:_tileMap z:-1];
+        
+    }
+    return self;
+}
+
+
+- (id)initWithColor:(ccColor4B)color {
+    
+    
+	if( (self=[super initWithColor:(UIColor)color] )) {
+        
+        self.isTouchEnabled = YES;
+        
+        [self runAction:[CCTintTo actionWithDuration:4.0 red:255 green:255 blue:255]];
+        
+        
+        
+        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:TILEMAP];
+        
+        [self addChild:_tileMap z:-1];
+        
+    }
+    return self;
+
+}
+
+
+
 -(void)setViewpointCenter:(CGPoint) position {
     
     CGSize winSize = [[CCDirector sharedDirector] winSize];
@@ -60,38 +97,7 @@ int tilegid = 0;
     
 }
 
-// on "init" you need to initialize your instance
--(id) init
-{
-	if( (self=[super init] )) {
-        
-        self.isTouchEnabled = YES;
-        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:TILEMAP];
-        self.background = [_tileMap layerNamed:@"Background"];
-        
-        //        CCTMXObjectGroup *objects = [_tileMap objectGroupNamed:@"Objects"];
-        //        NSAssert(objects != nil, @"'Objects' object group not found");
-        //        NSMutableDictionary *spawnPoint = [objects objectNamed:@"SpawnPoint"];
-        //        NSAssert(spawnPoint != nil, @"SpawnPoint object not found");
-        //        int x = [[spawnPoint valueForKey:@"x"] intValue];
-        //        int y = [[spawnPoint valueForKey:@"y"] intValue];
-        //
-        
-        int x =0;
-        int y = 0;
-        
-        
-        self.player = [CCSprite spriteWithFile:PLAYER];
-        _player.position = ccp(x, y);
-        [self addChild:_player];
-        
-        [self setViewpointCenter:_player.position];
-        
-        [self addChild:_tileMap z:-1];
-        
-    }
-    return self;
-}
+
 
 -(void) registerWithTouchDispatcher
 {
