@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10AA61F164AD39600B1B8D2 /* Barbarian.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61A164AD39600B1B8D2 /* Barbarian.m */; };
+		A10AA620164AD39600B1B8D2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61C164AD39600B1B8D2 /* GameScene.m */; };
+		A10AA621164AD39600B1B8D2 /* HumanPriest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61E164AD39600B1B8D2 /* HumanPriest.m */; };
+		A10AA625164AD3B500B1B8D2 /* tilemap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A10AA623164AD3B500B1B8D2 /* tilemap.tmx */; };
+		A10AA626164AD3B500B1B8D2 /* tmw_desert_spacing.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AA624164AD3B500B1B8D2 /* tmw_desert_spacing.png */; };
+		A10AA629164AD42200B1B8D2 /* openDoor0.gif in Resources */ = {isa = PBXBuildFile; fileRef = A10AA627164AD42200B1B8D2 /* openDoor0.gif */; };
+		A10AA62A164AD42200B1B8D2 /* priest.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AA628164AD42200B1B8D2 /* priest.png */; };
+		A10AA62E164AD42D00B1B8D2 /* barbarian.gif in Resources */ = {isa = PBXBuildFile; fileRef = A10AA62B164AD42D00B1B8D2 /* barbarian.gif */; };
+		A10AA62F164AD42D00B1B8D2 /* barbarian.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AA62C164AD42D00B1B8D2 /* barbarian.png */; };
+		A10AA630164AD42D00B1B8D2 /* glove3_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AA62D164AD42D00B1B8D2 /* glove3_0.png */; };
+		A10AA632164AD43B00B1B8D2 /* sage.gif in Resources */ = {isa = PBXBuildFile; fileRef = A10AA631164AD43B00B1B8D2 /* sage.gif */; };
 		A1CDE390164AD22100D25030 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDE38F164AD22000D25030 /* QuartzCore.framework */; };
 		A1CDE392164AD22100D25030 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDE391164AD22100D25030 /* OpenGLES.framework */; };
 		A1CDE394164AD22100D25030 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDE393164AD22100D25030 /* OpenAL.framework */; };
@@ -136,6 +147,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10AA619164AD39600B1B8D2 /* Barbarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarian.h; sourceTree = "<group>"; };
+		A10AA61A164AD39600B1B8D2 /* Barbarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbarian.m; sourceTree = "<group>"; };
+		A10AA61B164AD39600B1B8D2 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A10AA61C164AD39600B1B8D2 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A10AA61D164AD39600B1B8D2 /* HumanPriest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPriest.h; sourceTree = "<group>"; };
+		A10AA61E164AD39600B1B8D2 /* HumanPriest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanPriest.m; sourceTree = "<group>"; };
+		A10AA623164AD3B500B1B8D2 /* tilemap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tilemap.tmx; sourceTree = "<group>"; };
+		A10AA624164AD3B500B1B8D2 /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmw_desert_spacing.png; sourceTree = "<group>"; };
+		A10AA627164AD42200B1B8D2 /* openDoor0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = openDoor0.gif; sourceTree = "<group>"; };
+		A10AA628164AD42200B1B8D2 /* priest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priest.png; sourceTree = "<group>"; };
+		A10AA62B164AD42D00B1B8D2 /* barbarian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = barbarian.gif; sourceTree = "<group>"; };
+		A10AA62C164AD42D00B1B8D2 /* barbarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarian.png; sourceTree = "<group>"; };
+		A10AA62D164AD42D00B1B8D2 /* glove3_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glove3_0.png; sourceTree = "<group>"; };
+		A10AA631164AD43B00B1B8D2 /* sage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sage.gif; sourceTree = "<group>"; };
 		A1CDE38B164AD22000D25030 /* dungeon_architect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dungeon_architect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CDE38F164AD22000D25030 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A1CDE391164AD22100D25030 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -456,6 +481,12 @@
 		A1CDE3A1164AD22100D25030 /* dungeon_architect */ = {
 			isa = PBXGroup;
 			children = (
+				A10AA619164AD39600B1B8D2 /* Barbarian.h */,
+				A10AA61A164AD39600B1B8D2 /* Barbarian.m */,
+				A10AA61B164AD39600B1B8D2 /* GameScene.h */,
+				A10AA61C164AD39600B1B8D2 /* GameScene.m */,
+				A10AA61D164AD39600B1B8D2 /* HumanPriest.h */,
+				A10AA61E164AD39600B1B8D2 /* HumanPriest.m */,
 				A1CDE519164AD22300D25030 /* AppDelegate.h */,
 				A1CDE51A164AD22300D25030 /* AppDelegate.m */,
 				A1CDE51C164AD22300D25030 /* HelloWorldLayer.h */,
@@ -472,8 +503,16 @@
 		A1CDE3A2164AD22100D25030 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A10AA623164AD3B500B1B8D2 /* tilemap.tmx */,
+				A10AA62D164AD42D00B1B8D2 /* glove3_0.png */,
+				A10AA631164AD43B00B1B8D2 /* sage.gif */,
+				A10AA62B164AD42D00B1B8D2 /* barbarian.gif */,
+				A10AA62C164AD42D00B1B8D2 /* barbarian.png */,
+				A10AA624164AD3B500B1B8D2 /* tmw_desert_spacing.png */,
 				A1CDE3A3164AD22100D25030 /* Default.png */,
+				A10AA627164AD42200B1B8D2 /* openDoor0.gif */,
 				A1CDE3A5164AD22100D25030 /* Default-Landscape~ipad.png */,
+				A10AA628164AD42200B1B8D2 /* priest.png */,
 				A1CDE3A7164AD22100D25030 /* fps_images.png */,
 				A1CDE3A9164AD22100D25030 /* fps_images-hd.png */,
 				A1CDE3AB164AD22100D25030 /* fps_images-ipadhd.png */,
@@ -895,6 +934,14 @@
 				A1CDE3B8164AD22100D25030 /* Icon@2x.png in Resources */,
 				A1CDE3BB164AD22100D25030 /* iTunesArtwork in Resources */,
 				A1CDE4F9164AD22200D25030 /* ChangeLog in Resources */,
+				A10AA625164AD3B500B1B8D2 /* tilemap.tmx in Resources */,
+				A10AA626164AD3B500B1B8D2 /* tmw_desert_spacing.png in Resources */,
+				A10AA629164AD42200B1B8D2 /* openDoor0.gif in Resources */,
+				A10AA62A164AD42200B1B8D2 /* priest.png in Resources */,
+				A10AA62E164AD42D00B1B8D2 /* barbarian.gif in Resources */,
+				A10AA62F164AD42D00B1B8D2 /* barbarian.png in Resources */,
+				A10AA630164AD42D00B1B8D2 /* glove3_0.png in Resources */,
+				A10AA632164AD43B00B1B8D2 /* sage.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1056,9 @@
 				A1CDE51B164AD22300D25030 /* AppDelegate.m in Sources */,
 				A1CDE51E164AD22300D25030 /* HelloWorldLayer.m in Sources */,
 				A1CDE521164AD22300D25030 /* IntroLayer.m in Sources */,
+				A10AA61F164AD39600B1B8D2 /* Barbarian.m in Sources */,
+				A10AA620164AD39600B1B8D2 /* GameScene.m in Sources */,
+				A10AA621164AD39600B1B8D2 /* HumanPriest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1162,7 @@
 				A1CDE526164AD22300D25030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
