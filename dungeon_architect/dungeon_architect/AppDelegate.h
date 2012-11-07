@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  dungeon_architect
 //
-//  Created by Christian May on 07.11.12.
+//  Created by Christian May on 03.11.12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 
