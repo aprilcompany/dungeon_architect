@@ -56,9 +56,12 @@ static int name;
 
         NSString *namedesbarbar = [[NSNumber numberWithInt:barbarname] stringValue];
         
-        label = [[CCLabelTTF alloc] initWithString:namedesbarbar dimensions:CGSizeMake([mySprite contentSize].width, [mySprite contentSize].height) alignment:UITextAlignmentLeft fontName:@"verdana" fontSize:10.0f];
+        labelposx = [[CCLabelTTF alloc] initWithString:namedesbarbar dimensions:CGSizeMake(100, 55) alignment:UITextAlignmentLeft fontName:@"verdana" fontSize:10.0f];
         
-        [mySprite addChild:label z: 10];
+        labelposy = [[CCLabelTTF alloc] initWithString:namedesbarbar dimensions:CGSizeMake(100, [mySprite contentSize].height) alignment:UITextAlignmentLeft fontName:@"verdana" fontSize:10.0f];
+        
+        [mySprite addChild:labelposx z: 10];
+        [mySprite addChild:labelposy z: 10];
         [self schedule:@selector(update:) interval:0.1];
     }
     return self;
@@ -124,9 +127,10 @@ static int name;
 -(void)update:(ccTime)dt
 {
     //[label setPosition:spriteObj.position];
-    NSString *andre = [[NSNumber numberWithFloat:self.position.x] stringValue];
-    
-    label.string = andre;
+    NSString *andre1 = [[NSNumber numberWithFloat:self.position.x] stringValue];
+    NSString *andre2 = [[NSNumber numberWithFloat:self.position.y] stringValue];
+    labelposx.string = andre1;
+    labelposy.string = andre2;
     
 }
 

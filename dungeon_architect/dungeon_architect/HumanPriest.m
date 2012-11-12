@@ -28,7 +28,7 @@
         
         int randomInt;
         randomInt = (arc4random() % 10) + 1;
-        movementspeed = 200;
+        movementspeed = 100;
         
         constitution = 1;
         armor = 1;

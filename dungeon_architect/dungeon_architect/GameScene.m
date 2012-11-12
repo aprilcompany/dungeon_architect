@@ -149,7 +149,7 @@ int tilegid = 0;
 - (void) dealloc
 {
 	self.tileMap = nil;
-    self.background = nil;
+    //self.background = nil;
     self.player = nil;
 	[super dealloc];
 }

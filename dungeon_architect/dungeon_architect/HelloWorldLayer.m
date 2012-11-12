@@ -41,51 +41,6 @@
 	return scene;
 }
 
-//-(void)spriteMoveFinished:(id)sender {
-//    CCSprite *target = (CCSprite *)sender;
-//    // Löschen einer Figure
-//    ////[self removeChild:sprite cleanup:YES];
-//    
-//    // Setzen der Endposition der Bewegung der Figure
-//    // Bewegung ist geradlinig, für Tile-Map von 35x35 Feldgröße
-//    //// CGSize winSize = [[CCDirector sharedDirector] winSize];
-//    //// int maxX = winSize.width;
-//    //// int maxY = winSize.height;
-//    float x = target.position.x;
-//    float y = target.position.y;
-//    
-//    // Eine von 4 Bewegungsrichtungen für Tiles ermitteln
-//    int direction = (arc4random() % 4)+1;
-//    switch (direction) {
-//        case 1:
-//            x = x + ((arc4random() % 4)+1)*35;
-//            break;
-//        case 2:
-//            y = y + ((arc4random() % 4)+1)*35;
-//            break;
-//        case 3:
-//            x = x - ((arc4random() % 4)+1)*35;
-//            break;
-//        case 4:
-//            y = y - ((arc4random() % 4)+1)*35;
-//            break;
-//        default:
-//            y = y + ((arc4random() % 4)+1)*35;
-//            break;
-//    }
-//    
-//    // Determine speed of the target
-//    int minDuration = 1.0;
-//    int maxDuration = 4.0;
-//    int rangeDuration = maxDuration - minDuration;
-//    int actualDuration = (arc4random() % rangeDuration) + minDuration;
-//    
-//    
-//    // Create the actions
-//    id actionMove = [CCMoveTo actionWithDuration:actualDuration position:ccp(x, y)];
-//    id actionMoveDone = [CCCallFuncN actionWithTarget:self selector:@selector(spriteMoveFinished:)];
-//    [target runAction:[CCSequence actions:actionMove, actionMoveDone, nil]];
-//}
 
 -(void)addFigure {
     // Zufallszahl erzeugen
@@ -144,7 +99,7 @@
 		
         
         // Erstellen einer Instanz der Klasse Barbarian
-        [Barbarian nodeWithTheGame:self location:ccp(size.width/2, size.height/2+50)];
+        [Barbarian nodeWithTheGame:self location:ccp(0, 0)];
         [HumanPriest nodeWithTheGame:self location:ccp(size.width/2, size.height/2+50)];
         
 		//

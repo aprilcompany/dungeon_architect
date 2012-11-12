@@ -27,6 +27,8 @@
     HelloWorldLayer * theGame;
     
     CCLabelTTF *label;
+    CCLabelTTF *labelposx;
+    CCLabelTTF *labelposy;
 }
 
 

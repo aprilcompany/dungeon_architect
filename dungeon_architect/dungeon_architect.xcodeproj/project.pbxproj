@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D169887164E8E0000946074 /* zombie-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D169885164E8E0000946074 /* zombie-0.png */; };
+		8D169888164E8E0000946074 /* zombie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D169886164E8E0000946074 /* zombie-1.png */; };
 		A10AA61F164AD39600B1B8D2 /* Barbarian.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61A164AD39600B1B8D2 /* Barbarian.m */; };
 		A10AA620164AD39600B1B8D2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61C164AD39600B1B8D2 /* GameScene.m */; };
 		A10AA621164AD39600B1B8D2 /* HumanPriest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AA61E164AD39600B1B8D2 /* HumanPriest.m */; };
@@ -147,6 +149,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D169885164E8E0000946074 /* zombie-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie-0.png"; sourceTree = "<group>"; };
+		8D169886164E8E0000946074 /* zombie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zombie-1.png"; sourceTree = "<group>"; };
 		A10AA619164AD39600B1B8D2 /* Barbarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarian.h; sourceTree = "<group>"; };
 		A10AA61A164AD39600B1B8D2 /* Barbarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbarian.m; sourceTree = "<group>"; };
 		A10AA61B164AD39600B1B8D2 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -504,6 +508,8 @@
 			isa = PBXGroup;
 			children = (
 				A10AA623164AD3B500B1B8D2 /* tilemap.tmx */,
+				8D169885164E8E0000946074 /* zombie-0.png */,
+				8D169886164E8E0000946074 /* zombie-1.png */,
 				A10AA62D164AD42D00B1B8D2 /* glove3_0.png */,
 				A10AA631164AD43B00B1B8D2 /* sage.gif */,
 				A10AA62B164AD42D00B1B8D2 /* barbarian.gif */,
@@ -942,6 +948,8 @@
 				A10AA62F164AD42D00B1B8D2 /* barbarian.png in Resources */,
 				A10AA630164AD42D00B1B8D2 /* glove3_0.png in Resources */,
 				A10AA632164AD43B00B1B8D2 /* sage.gif in Resources */,
+				8D169887164E8E0000946074 /* zombie-0.png in Resources */,
+				8D169888164E8E0000946074 /* zombie-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
